@@ -7,7 +7,7 @@ Add the following to your `~/.bash_profile`, `~/.zshrc` or similar file:
 
 fn_dir=~/dev/toolshed/commandline
 if [ -d "$fn_dir" ]; then
-    for file in "$fn_dir"/*; do
+    for file in "$fn_dir"/*.sh; do
         [ -r "$file" ] && . "$file"
     done
 fi
