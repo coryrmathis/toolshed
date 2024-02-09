@@ -8,6 +8,7 @@ brew "postgresql@14", restart_service: true, link: true
 brew "redis", restart_service: true
 brew "ruby-install"
 brew "tldr"
+brew "blueutil" #bluetooth utility
 
 cask "iterm2"
 cask "karabiner-elements"
