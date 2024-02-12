@@ -2,11 +2,6 @@
 
 #### CHIME ####
 
-# Essential access tokens, tied to your user.
-export GITHUB_TOKEN="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"
-export GEMFURY_USER="coryrmathischime"
-export GEMFURY_TOKEN="1vwpzMZyUr7PuoSyPEzN"
-
 # Make tokens available to (some) Ruby projects.
 export BUNDLE_GITHUB__COM="$GITHUB_TOKEN:x-oauth-basic"
 export GEMFURY_URL="https://$GEMFURY_TOKEN@push.fury.io/$GEMFURY_USER/"
