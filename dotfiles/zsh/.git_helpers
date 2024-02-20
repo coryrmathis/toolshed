@@ -1,3 +1,0 @@
-alias gsc="git commit -am"
-alias gp="git pull"
-alias gbs="git branch --sort=-committerdate | head -n 10"

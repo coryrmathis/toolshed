@@ -19,6 +19,7 @@ alias cdt="cd $WORK_DIR_PATH/toolshed"
 alias rc="bundle exec rubocop"
 
 #### GIT ####
+alias gsc="git commit -am $0"
 alias current_branch="git rev-parse --abbrev-ref HEAD"
 
 #### GITHUB ####
