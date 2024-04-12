@@ -9,6 +9,7 @@ brew "redis", restart_service: true
 brew "ruby-install"
 brew "tldr"
 brew "blueutil" #bluetooth utility
+brew "aspell" #spellcheck utility
 
 cask "iterm2"
 cask "karabiner-elements"
