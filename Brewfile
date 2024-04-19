@@ -8,7 +8,8 @@ brew "postgresql@14", restart_service: true, link: true
 brew "redis", restart_service: true
 brew "ruby-install"
 brew "tldr"
-brew "blueutil" #bluetooth utility
+brew "blueutil" # bluetooth utility
+# brew "vsftpd" #FTP daemon for local FTP testing/debugging
 
 cask "iterm2"
 cask "karabiner-elements"
