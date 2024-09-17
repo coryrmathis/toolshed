@@ -17,6 +17,7 @@ alias cdt="cd $WORK_DIR_PATH/toolshed"
 
 #### RUBY ####
 alias rc="bundle exec rubocop"
+alias rspec="nocorrect rspec" # ZSH is being a bitch and throws 'zsh: correct 'rspec' to 'spec''
 
 #### GIT ####
 alias gac="git commit -am $0"

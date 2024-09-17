@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-results = system("zsh", "./write-favorite-albums-to-file.sh")
+results = system("zsh", "/Users/corymathis/dev/toolshed/play-a-favorite-album/write-favorite-albums-to-file.sh")
 
-favorite_albums = File.read("./favorite-albums.txt").split("\n").map(&:strip)
+favorite_albums = File.read("/Users/corymathis/dev/toolshed/play-a-favorite-album/favorite-albums.txt").split("\n").map(&:strip)
 
 album_to_play = favorite_albums.sample
 
