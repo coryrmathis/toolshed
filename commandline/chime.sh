@@ -35,5 +35,16 @@ alias cdpc="cd $PENNY_CLIENT_PATH"
 alias ydl="yarn dev:local"
 alias hs="halo exec $1 -- /bin/bash"
 alias hc="halo exec $1 -- ./bin/rails c"
+alias cpl="compass branchpin list $1"
+alias kubeqa="kubectl --context=csstable-rails-test -n qa"
+alias kubehalo="kubectl --context=eks-use1-halo-wkload1-a018 -n cory-mathis"
+alias kubeprod="kubectl --context=csproduction-rails-test -n chime01"
+alias kubedev3="kubectl --context=csstable-rails-test -n dev3"
+
+gpods(){
+    namespace=${1:-"dev3"}
+    app=${2:-"inspector"}
+    kubectl -n $namespace --context=csstable-rails-test get pods | grep $app
+}
 
 
