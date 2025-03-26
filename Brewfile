@@ -4,6 +4,7 @@ brew "chruby"
 brew "gh"
 brew "libpq"
 brew "readline"
+brew "bat" # Better cat?
 brew "postgresql@14", restart_service: true, link: true
 brew "redis", restart_service: true
 brew "ruby-install"
@@ -20,3 +21,5 @@ cask "slack"
 cask "firefox"
 cask "1password"
 cask "microsoft-excel"
+cask "pgadmin4"
+cask "obsidian"
