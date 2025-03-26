@@ -41,7 +41,7 @@ alias rspec="nocorrect rspec" # ZSH is being a bitch and throws 'zsh: correct 'r
 
 #### GIT ####
 alias gac="git commit -am $0"
-alias current_branch="git rev-parse --abbrev-ref HEAD"
+alias cb="git rev-parse --abbrev-ref HEAD"
 
 #### GITHUB ####
 # Open my PRs for the current repo in webview
