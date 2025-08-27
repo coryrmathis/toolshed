@@ -39,7 +39,12 @@ alias cpl="compass branchpin list $1"
 alias kubeqa="kubectl --context=csstable-rails-test -n qa"
 alias kubehalo="kubectl --context=eks-use1-halo-wkload1-a018 -n cory-mathis"
 alias kubeprod="kubectl --context=csproduction-rails-test -n chime01"
+alias prod_console="kubectl --context=csproduction-rails-test -n chime01 console stuff"
+alias kubedev1="kubectl --context=csstable-rails-test -n dev1"
+alias kubedev2="kubectl --context=csstable-rails-test -n dev2"
 alias kubedev3="kubectl --context=csstable-rails-test -n dev3"
+
+alias claude-sso="aws sso login --profile=daily-login && claude"
 
 gpods(){
     namespace=${1:-"dev3"}

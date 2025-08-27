@@ -10,6 +10,7 @@ brew "ruby-install"
 brew "tldr"
 brew "blueutil" #bluetooth utility
 brew "aspell" #spellcheck utility
+brew "pyenv" # Python version manager
 
 cask "iterm2"
 cask "karabiner-elements"
