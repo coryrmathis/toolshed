@@ -44,6 +44,8 @@ alias gac="git commit -am $0"
 alias cb="git rev-parse --abbrev-ref HEAD"
 
 #### GITHUB ####
+# Open all PRs for the current repo in webview
+alias prs="gh pr list -w"
 # Open my PRs for the current repo in webview
 alias myprs="gh pr list --author '@me' -w"
 # Open the PR based on the current branch

@@ -10,6 +10,7 @@ brew "redis", restart_service: true
 brew "ruby-install"
 brew "tldr"
 brew "blueutil" # bluetooth utility
+brew "youtube-dl" # download youtube videos
 # brew "vsftpd" #FTP daemon for local FTP testing/debugging
 
 cask "iterm2"
