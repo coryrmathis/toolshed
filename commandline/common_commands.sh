@@ -2,6 +2,7 @@
 
 # WORK DIR
 export WORK_DIR_PATH=~/dev
+export TOOLSHED_PATH="$WORK_DIR_PATH/toolshed"
 
 ### GENERAL PURPOSE ###
 
@@ -23,17 +24,14 @@ alias ca="caffeinate -d"
 ### TOOLSHED ###
 
 # Open toolshed in vscode
-alias mts="code $HOME/dev/toolshed"
+alias mts="code $TOOLSHED_PATH"
 
 ### CORYTHOSAURUS ###
 alias corycd="cd ~/dev/corythosaurus"
 alias corycode="code ~/dev/corythosaurus"
 
 ### TOOLSHED ###
-alias toolshed="code $WORK_DIR_PATH/toolshed"
-
-#### NAVIGATION ####
-alias cdt="cd $WORK_DIR_PATH/toolshed"
+alias toolshed="cd $TOOLSHED_PATH && code ."
 
 #### RUBY ####
 alias rspec="nocorrect rspec" # ZSH is being a bitch and throws 'zsh: correct 'rspec' to 'spec''
@@ -60,4 +58,4 @@ alias bruns="cb | xargs gh run list -b"
 ### ARCHWAY ###
 
 # Open archway crm in vscode
-alias crm="code $HOME/dev/archway/crm"
+alias crm="code $WORK_DIR_PATH/archway/crm"
